@@ -1,7 +1,7 @@
 // src/data/customers.js
 const customers = [
    
-    {    img:"./src/assets/download (2).jpg",
+    {    img:"./public/assets/download (2).jpg",
         name: "John Doe",
         lastSeen: "2023-06-01",
         orders: 5,
@@ -10,7 +10,7 @@ const customers = [
         news: "Subscribed",
         segments: ["Regular", "VIP"]
     },
-    {  img:"./src/assets/download (1).jpg",
+    {  img:"./public/assets/download (1).jpg",
         name: "Jane Smith",
         lastSeen: "2023-05-20",
         orders: 2,
@@ -19,7 +19,7 @@ const customers = [
         news: "Not Subscribed",
         segments: ["Regular"]
     },
-    {    img:"./src/assets/download (3).jpg",
+    {    img:"./public/assets/download (3).jpg",
         name: "Alice Johnson",
         lastSeen: "2023-06-10",
         orders: 3,
@@ -28,7 +28,7 @@ const customers = [
         news: "Subscribed",
         segments: ["VIP"]
     },
-    {   img:"./src/assets/download (4).jpg",
+    {   img:"./public/assets/download (4).jpg",
         name: "Bob Brown",
         lastSeen: "2023-05-25",
         orders: 1,
@@ -37,7 +37,7 @@ const customers = [
         news: "Not Subscribed",
         segments: ["Regular"]
     },
-    {    img:"./src/assets/download (5).jpg",
+    {    img:"./public/assets/download (5).jpg",
         name: "Charlie Davis",
         lastSeen: "2023-06-15",
         orders: 6,
@@ -46,7 +46,7 @@ const customers = [
         news: "Subscribed",
         segments: ["Regular", "VIP"]
     },
-    {   img:"./src/assets/images.jpg",
+    {   img:"./public/assets/images.jpg",
         name: "Diana Evans",
         lastSeen: "2023-06-18",
         orders: 4,
@@ -55,7 +55,7 @@ const customers = [
         news: "Subscribed",
         segments: ["Regular"]
     },
-    {    img:"./src/assets/download.jpg",
+    {    img:"./public/assets/download.jpg",
         name: "Frank Green",
         lastSeen: "2023-06-03",
         orders: 2,
