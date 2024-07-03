@@ -51,16 +51,16 @@ function App() {
     };
 
     return (
-        <div className='w-[75vw] m-10 '>
-           <div className=' ml-[75vw] mb-[5vh]   '>
-            <input className='rounded-full border-zinc-900 border-2 bg-zinc-600 '
+        <div className='w-[85vw] m-10   '>
+           <div className=' ml-[75vw] mb-[5vh]    '>
+            <input className='rounded-full pl-4 border-zinc-900 border-2 bg-zinc-600 '
                 value={searchInput}
                 onChange={handleSearch}
                 placeholder="Search"
                 style={{ marginBottom: '10px', marginLeft: '-32vw' }}
             />
             </div>
-            <table  className='ml-40'>
+            <table  className=' w-[70vw] ml-40 rounded-md bg-zinc-800 border-zinc-900 translate-x-10 '>
                 <thead  className='felx justify-center items-center' >
                     <tr >
                         {['','name', 'lastSeen', 'orders', 'totalAmount', 'latestPurchase', 'news', 'segments'].map(column => (
@@ -75,7 +75,7 @@ function App() {
                         ))}
                     </tr>
                 </thead>
-                <tbody>
+                <tbody >
                     {filteredData.map((customer, index) => (
                         <tr  key={index}>
                             <td  className='w-[50vw] h-[1vw]' > <img className='rounded-full p-2 w-[50px] h-[50px] ' src={customer.img} alt="" /></td>
